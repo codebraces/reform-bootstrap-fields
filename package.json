@@ -1,0 +1,48 @@
+{
+  "name": "@braces/reform-bootstrap-fields",
+  "version": "0.0.1",
+  "description": "bootstrap input fields for @braces/reform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build-watch": "tsc --watch",
+    "patch-release": "npm version patch && npm publish --access=public && git push --follow-tags",
+    "minor-release": "npm version minor && npm publish --access=public && git push --follow-tags",
+    "major-release": "npm version major && npm publish --access=public && git push --follow-tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebraces/reform-bootstrap-fields.git"
+  },
+  "keywords": [
+    "react",
+    "reform",
+    "form",
+    "bootstrap",
+    "input",
+    "field"
+  ],
+  "author": "Hafeez Hamza <hafeez1042@gmail.com> (http://hafeezhamza.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codebraces/reform-bootstrap-fields/issues"
+  },
+  "homepage": "https://github.com/codebraces/reform-bootstrap-fields#readme",
+  "devDependencies": {
+    "@braces/reform": "^0.4.1",
+    "@braces/tslint-config": "^0.3.1",
+    "@types/react": "^16.4.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  },
+  "peerDependencies": {
+    "@braces/reform": ">=0.4.0",
+    "react": ">=16.4.0",
+    "react-dom": ">=16.4.0"
+  },
+  "dependencies": {}
+}
